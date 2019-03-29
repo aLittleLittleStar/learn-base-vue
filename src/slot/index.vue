@@ -14,12 +14,12 @@
         <span>菜单--3</span>
         <span>菜单--4</span>
       </div>
-
+<!--slotProps一个接受子组件数据的名称,可以自定义-->
       <div slot-scope="slotProps">
         <div class="temp">
-          <ul v-for="indx in slotProps.item">
+          <span v-for="indx in slotProps.item">
             <span>{{indx}}</span>
-          </ul>
+          </span>
         </div>
       </div>
     </slot-child>
