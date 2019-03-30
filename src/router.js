@@ -2,7 +2,7 @@
 * @Author: Star
 * @Date:   2019-03-28 16:41:24
 * @Last Modified by:   Star
-* @Last Modified time: 2019-03-29 19:26:41
+* @Last Modified time: 2019-03-30 19:12:00
 */
 import Vue from 'vue'
 import VueRouter from 'vue-router'
@@ -14,6 +14,7 @@ import MySlot from './slot/index'
 import Animation from './animation/index'
 import Bfc from './layout/bfc'
 import ShengBei from './layout/shengbei'
+import VueAxios from './axios/index'
 
 Vue.use(VueRouter)
 
@@ -50,6 +51,10 @@ const routes = [
 	{
 		path: '/shengbei',
 		component: ShengBei
+	},
+	{
+		path: '/axios',
+		component: VueAxios
 	}
 ]
 
