@@ -2,13 +2,14 @@
 * @Author: Star
 * @Date:   2019-03-28 16:41:24
 * @Last Modified by:   Star
-* @Last Modified time: 2019-03-28 16:47:10
+* @Last Modified time: 2019-04-01 20:20:50
 */
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 // 引入组件
 import HelloWorld from './components/HelloWorld.vue'
 import Index from './vuex/index'
+import VueIndex from './vuebase/index'
 import BaseIndex from './index'
 import MySlot from './slot/index'
 
@@ -27,6 +28,10 @@ const routes = [
 	{
 		path: '/index',
 		component: Index
+	},
+	{
+		path: '/vuebase',
+		component: VueIndex
 	},
 	{
 		path: '/slot',

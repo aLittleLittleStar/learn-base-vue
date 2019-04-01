@@ -2,10 +2,9 @@
 * @Author: Star
 * @Date:   2019-03-28 11:31:28
 * @Last Modified by:   Star
-* @Last Modified time: 2019-03-28 15:37:32
+* @Last Modified time: 2019-04-01 20:46:58
 */
 import Vue from 'vue'
-import App from '../App'
 import Vuex from 'vuex'
 import * as getters from './getters'
 import * as actions from './action'

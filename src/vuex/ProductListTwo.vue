@@ -21,6 +21,14 @@ export default {
       products: this.$store.state.products
     }
   },
+  computed: {
+    // ...mapGetters([
+    //   'minusPrice'
+    // ]),
+    // ...mapActions([
+    //   minusPriceAsync: 'minusPriceAsync'
+    // ])
+  },
   methods: {
     minusPrice() {
       //提交`minusPrice,payload为2
