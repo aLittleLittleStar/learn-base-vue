@@ -10,6 +10,10 @@
 			<h3>slot插槽</h3>
 			<router-link to="/slot">slot插槽</router-link>
 		</div>
+		<div class="box1">
+			<h3>BFC</h3>
+			<router-link to="/bfc">BFC</router-link>
+		</div>
 	</div>
 </template>
 

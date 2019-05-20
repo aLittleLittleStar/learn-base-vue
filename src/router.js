@@ -2,7 +2,7 @@
 * @Author: Star
 * @Date:   2019-03-28 16:41:24
 * @Last Modified by:   Star
-* @Last Modified time: 2019-04-01 20:20:50
+* @Last Modified time: 2019-04-02 10:47:08
 */
 import Vue from 'vue'
 import VueRouter from 'vue-router'
@@ -12,6 +12,7 @@ import Index from './vuex/index'
 import VueIndex from './vuebase/index'
 import BaseIndex from './index'
 import MySlot from './slot/index'
+import BFC from './bfc/index'
 
 Vue.use(VueRouter)
 
@@ -36,6 +37,10 @@ const routes = [
 	{
 		path: '/slot',
 		component: MySlot
+	},
+	{
+		path: '/bfc',
+		component: BFC
 	}
 ]
 
